@@ -246,7 +246,7 @@ footer {
 
 @media (max-width: 600px) {
   .nav li a {
-    font-size: 14px;       /* スマホで読みやすい小さめサイズ */
+    font-size: 9px;       /* スマホで読みやすい小さめサイズ */
     padding: 0 12px;       /* 横幅に余白を調整 */
     line-height: 60px;     /* 高さも調整して余裕を持たせる */
     height: 60px;
