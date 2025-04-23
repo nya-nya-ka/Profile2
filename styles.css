@@ -28,7 +28,7 @@ body {
 .page-title {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
   color: #9e9e9e;
   position: absolute;
   top: 50%;
@@ -244,15 +244,3 @@ footer {
   outline: none;
 }
 
-/* スマホや小さめの画面用 */
-@media (max-width: 768px) {
-  .page-title {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .page-title {
-    font-size: 1.6rem;
-  }
-}
