@@ -30,10 +30,11 @@ body {
   font-weight: 300;
   font-size: 3rem;
   color: #9e9e9e;
-  text-align: left;
-  padding-left: 200px;
+  position: absolute;
+  top: 50%;
+  left: 33.33vw; /* 横位置を画面幅の3分の2に */
+  transform: translate(-50%, -50%); /* 中央揃え */
   opacity: 0;
-  transform: translateY(30px);
   z-index: 1;
 }
 
