@@ -243,3 +243,16 @@ footer {
   list-style-type: none;
   outline: none;
 }
+
+/* スマホや小さめの画面用 */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.6rem;
+  }
+}
