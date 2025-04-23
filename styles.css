@@ -253,7 +253,7 @@ footer {
   }
 
   .logo {
-    font-size: 1.5rem;     /* ロゴの文字も縮小 */
+    font-size: 1.0rem;     /* ロゴの文字も縮小 */
     line-height: 60px;
     height: 60px;
   }
