@@ -244,3 +244,26 @@ footer {
   outline: none;
 }
 
+@media (max-width: 600px) {
+  .nav li a {
+    font-size: 14px;       /* スマホで読みやすい小さめサイズ */
+    padding: 0 12px;       /* 横幅に余白を調整 */
+    line-height: 60px;     /* 高さも調整して余裕を持たせる */
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 1.5rem;     /* ロゴの文字も縮小 */
+    line-height: 60px;
+    height: 60px;
+  }
+
+  header {
+    height: 60px;          /* ヘッダー自体の高さも変更したい場合 */
+  }
+
+  .logo img {
+    height: 50px;          /* ロゴ画像がある場合は高さも調整 */
+    top: 5px;
+  }
+}
