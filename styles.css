@@ -14,8 +14,8 @@ body {
 }
 
 .centered-image {
-  width: 66.66vw; /* 横幅の3分の2 */
-  height: calc((100vh - 80px) * 2 / 3); /* ヘッダーを引いた領域の高さの3分の2 */
+  width: 75.00vw; /* 横幅の3分の2 */
+  height: calc((100vh - 80px) * 3 / 4); /* ヘッダーを引いた領域の高さの3分の2 */
   object-fit: contain;
   position: absolute;
   top: 50%; /* 画面の中央に配置 */
@@ -32,7 +32,7 @@ body {
   color: #9e9e9e;
   position: absolute;
   top: 48%;
-  left: 33.33vw; /* 横位置を画面幅の3分の2に */
+  left: calc(50% - 20vw); /* ← ここを変更 */
   transform: translate(-50%, -50%); /* 中央揃え */
   opacity: 0;
   z-index: 1;
