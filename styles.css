@@ -62,7 +62,7 @@ body {
 
 .section2-1 {
   padding-top: 0;
-  padding-left: 150px;
+  padding-left: 25vw;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
@@ -75,7 +75,7 @@ body {
 
 .section2-3 {
   padding-top: 100px;
-  padding-left: 150px;
+  padding-left: 25vw;
   font-family: "Klee One", cursive;
   font-weight: 400;
   font-style: normal;
@@ -266,4 +266,11 @@ footer {
     height: 50px;          /* ロゴ画像がある場合は高さも調整 */
     top: 5px;
   }
+
+  .section2-1,
+  .section2-3 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
 }
+
