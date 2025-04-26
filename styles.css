@@ -67,7 +67,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #4d4a4a;
-  font-size: 1.3rem;
+  font-size: clamp(0.9rem, 2vw, 1.3rem);
   opacity: 0;
   transform: translateX(30px);
   transition: none;
@@ -80,7 +80,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #474747;
-  font-size: 1.05rem;
+  font-size: clamp(0.85rem, 1.8vw, 1.05rem);
   opacity: 0;
   transform: translateX(30px);
   transition: none;
@@ -134,7 +134,7 @@ header {
   line-height: 80px;
   color: #918f8f;
   position: relative;
-  font-size: clamp(10px, 2vw, 16px); 
+  font-size: 16px;
   height: 80px;
   font-weight: 400;
   transition: 500ms;
@@ -197,7 +197,7 @@ footer {
 .footer-text {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 1.5vw, 0.9rem);
   margin: 0;
   color: #9b9b9b;
 }
@@ -205,13 +205,13 @@ footer {
 .footer-text2 {
   padding-top: 20px;
   font-family: 'Alegreya Sans SC', sans-serif !important;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 1.5vw, 0.9rem);
   margin: 0;
 }
 
 .material-icons {
   vertical-align: middle;
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
   color: #9b9b9b;
   margin-right: 5px;
 }
