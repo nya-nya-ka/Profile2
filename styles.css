@@ -275,6 +275,6 @@ footer {
 
   .page-title {
     left: calc(50% - 30vw); /* ここも同じ調整 */
-    font-size: clamp(0.6rem, 4.5vw, 1.5rem); /* ここ変更！ */
+    font-size: clamp(0.8rem, 6vw, 1.8rem); /* 少し大きめに戻す */
   }
 }
