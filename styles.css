@@ -16,14 +16,18 @@ body {
 .centered-image {
   width: 75.00vw; /* 横幅の3分の2 */
   height: calc((100vh - 80px) * 3 / 4); /* ヘッダーを引いた領域の高さの3分の2 */
-  object-fit: contain;
+  object-fit: cover; /* 画像を枠に合わせて拡大または縮小 */
   position: absolute;
   top: 50%; /* 画面の中央に配置 */
   left: 50%; /* 画面の中央に配置 */
   transform: translate(-50%, -50%); /* 中央揃え */
   pointer-events: none;
   z-index: 0;
+  border-radius: 20px; /* 四隅を丸く */
 }
+
+
+
 
 .page-title {
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -59,6 +63,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 
 .section2-1 {
   padding-top: 0;
