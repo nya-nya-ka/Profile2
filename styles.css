@@ -272,5 +272,10 @@ footer {
     padding-left: 5vw;
     padding-right: 5vw;
   }
+
+  .page-title {
+    left: calc(50% - 37.5vw + 12.5vw); /* ここも同じ調整 */
+    font-size: clamp(0.4rem, 8vw, 2rem); /* スマホ用にフォントサイズも調整 */
+  }
 }
 
